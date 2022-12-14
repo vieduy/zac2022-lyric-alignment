@@ -1,11 +1,11 @@
 # Zalo AI Challenge 2022 - Lyric Alignment
 
-This is a solution for track Lyric Alignment - From team VTS-HTML 
+This is a solution for track Lyric Alignment - From team VTS-HTML.
 
-Jiawen Huang, Emmanouil Benetos, Sebastian Ewert, "**Improving Lyrics Alignment through Joint Pitch Detection**," 
-International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022. [https://arxiv.org/abs/2202.01646](https://arxiv.org/abs/2202.01646)
+## Description
 
-## Dependencies
+Details are at the link of the [ZaloAI - Lyric Alignment](https://challenge.zalo.ai/portal/lyric-alignment)
+
 
 This repo is written in python 3. Pytorch is used as the deep learning framework. To install the required python packages, run
 
