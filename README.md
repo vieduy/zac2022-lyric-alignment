@@ -1,6 +1,6 @@
-# LyricsAlignment-MTL
+# Zalo AI Challenge 2022 - Lyric Alignment
 
-This repository consists of code of the following paper:
+This is a solution for track Lyric Alignment - From team VTS-HTML 
 
 Jiawen Huang, Emmanouil Benetos, Sebastian Ewert, "**Improving Lyrics Alignment through Joint Pitch Detection**," 
 International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022. [https://arxiv.org/abs/2202.01646](https://arxiv.org/abs/2202.01646)
