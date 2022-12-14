@@ -32,6 +32,8 @@ The alignment process use Viterbi forced alignment. This can be computed efficie
 
 ### Problem with datasets
 
+After fine-tuning this method on ZaloAI 2022 datasets, we realize that the results in the public leaderboard seem not good $\\approx 0.52$. 
+
 ```
 pip install -r requirements.txt
 ```
