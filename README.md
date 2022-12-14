@@ -18,7 +18,7 @@ The overview will be discussed below this figure
 
 ### Vocal extraction
 
-Realizing that in the ZaloAI dataset there are many songs with fast tempo and difficult to hear the vocals, so we decided to preprocess the audio with a ["Vocal remover"](https://github.com/tsurumeso/vocal-remover) module by Tsurumeso. From now on, we have an audio file with the sound containing only clear vocals.
+Realizing that in the ZaloAI dataset there are many songs with fast tempo and difficult to hear the vocals, so we decided to preprocess the audio with a **small module** [Vocal remover](https://github.com/tsurumeso/vocal-remover) by Tsurumeso. From now on, we have an audio file with the sound containing only clear vocals.
 
 ```
 pip install -r requirements.txt
