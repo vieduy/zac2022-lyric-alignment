@@ -1,6 +1,6 @@
 # Zalo AI Challenge 2022 - Lyric Alignment
 
-This is a solution for track Lyric Alignment - From team VTS-HTML.
+This is a solution for track Lyric Alignment - From team VTS-HTML (TOP 3 Private test Zalo AI Challenge)
 
 ## Description
 
