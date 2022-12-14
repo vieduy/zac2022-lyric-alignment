@@ -6,8 +6,15 @@ This is a solution for track Lyric Alignment - From team VTS-HTML.
 
 Details are at the link of the [ZaloAI - Lyric Alignment](https://challenge.zalo.ai/portal/lyric-alignment)
 
+## Solutions 
 
-This repo is written in python 3. Pytorch is used as the deep learning framework. To install the required python packages, run
+### Overview
+
+Our method is based on paper [Improving Lyrics Alignment through Joint Pitch Detection](https://arxiv.org/pdf/2202.01646.pdf) by Jiawen Huang, Emmanouil Benetos, Sebastian Ewer, (ICASSP). 2022.
+
+The overview will be discussed below this figure
+
+
 
 ```
 pip install -r requirements.txt
