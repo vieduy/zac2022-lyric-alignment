@@ -32,7 +32,11 @@ The alignment process use Viterbi forced alignment. This can be computed efficie
 
 ### Problem with datasets
 
-First, we tried to fine-tuning this method on ZaloAI 2022 datasets, the results in the public leaderboard seem not good $\\approx 0.52$. After EDA data of training set, we realized that Ground-truth has been mislabeled quite a bit (easily check this misalignment by [audacity](https://www.audacityteam.org/download/))
+First, we tried to fine-tuning this method on ZaloAI 2022 datasets, the results in the public leaderboard seem not good $\\approx 0.52$. After EDA data of training set, we realized that Ground-truth has been misalignment quite a bit (easily check this by [audacity](https://www.audacityteam.org/download/)).
+
+So we used the [pretrained baseline](https://github.com/jhuang448/LyricsAlignment-MTL/blob/main/checkpoints/checkpoint_Baseline) to create **pseudo labels**. 
+
+However, instead of using 100% pseudo-labels. We calculate IoU bẻtween pseudo-labels and GT from ZaloAI Datasets. If IoU is less than 0.7, we will use pseudo-label, otherwise we will use GT from Zalo. 
 
 ```
 pip install -r requirements.txt
