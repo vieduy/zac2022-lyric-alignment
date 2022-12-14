@@ -14,7 +14,7 @@ Our method is based on paper [Improving Lyrics Alignment through Joint Pitch Det
 
 The overview will be discussed below this figure
 
-
+![](./figure/overview.png)
 
 ```
 pip install -r requirements.txt
