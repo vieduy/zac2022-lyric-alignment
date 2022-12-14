@@ -62,6 +62,4 @@ Update later...
 
 ## Contact
 
-Hoang Vien Duy
-
-hoangduy.cqb.2k@gmail.com
+Hoang Vien Duy - hoangduy.cqb.2k@gmail.com
