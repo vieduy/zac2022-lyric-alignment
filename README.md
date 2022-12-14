@@ -16,9 +16,13 @@ The overview will be discussed below this figure
 
 ![](./figure/overview.png)
 
-### Vocal extraction
+### Vocal Extraction
 
 Realizing that in the ZaloAI dataset there are many songs with fast tempo and difficult to hear the vocals, so we decided to preprocess the audio with a **small module** [Vocal remover](https://github.com/tsurumeso/vocal-remover) by Tsurumeso. From now on, we have an audio file with the sound containing only clear vocals.
+
+### Acoustic Model
+
+The acoustic model takes the Mel-spectrogram of the separated vocals as input, and produces the phoneme posteriorgram. It consists of a convolutional layer, a residual convolutional block, a fully-connected layer, 3 bidirectional LSTM (Long Short-Term Memory) layers, a final fullyconnected layer, and non-linearities in between. 
 
 ```
 pip install -r requirements.txt
