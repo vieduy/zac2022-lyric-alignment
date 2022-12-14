@@ -42,6 +42,8 @@ After training with this dataset, the results improved significantly $\\approx 0
 
 ### Post-processing
 
+The predicted results of our model are quite close to reality. However, if you pay close attention, GT has a characteristic that **the end time** of the previous word and **the start time** of the following word is the same. So we extend the gaps between the start and end times of two adjacent words into the previous word. This improves our results quite a bit $\\approx 0.60$.
+
 ```
 pip install -r requirements.txt
 ```
