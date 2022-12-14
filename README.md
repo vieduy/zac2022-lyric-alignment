@@ -56,9 +56,9 @@ Update later...
 
 [1] Jiawen Huang, Emmanouil Benetos, Sebastian Ewert, "Improving Lyrics Alignment through Joint Pitch Detection," International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022.
 
-[2] https://github.com/tsurumeso/vocal-remover
+[2] Gabriel Meseguer-Brocal, Alice Cohen-Hadria, and Geoffroy Peeters, “Creating DALI, a large dataset of synchronized audio, lyrics, and notes,” Transactions of the International Society for Music Information Retrieval, vol. 3, no. 1, pp. 55–67, 2020.
 
-[3] Gabriel Meseguer-Brocal, Alice Cohen-Hadria, and Geoffroy Peeters, “Creating DALI, a large dataset of synchronized audio, lyrics, and notes,” Transactions of the International Society for Music Information Retrieval, vol. 3, no. 1, pp. 55–67, 2020.
+[3] https://github.com/tsurumeso/vocal-remover
 
 ## Contact
 
