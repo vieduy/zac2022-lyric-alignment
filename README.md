@@ -22,7 +22,8 @@ Realizing that in the ZaloAI dataset there are many songs with fast tempo and di
 
 ### Acoustic Model
 
-The acoustic model takes the Mel-spectrogram of the separated vocals as input, and produces the phoneme posteriorgram. It consists of a convolutional layer, a residual convolutional block, a fully-connected layer, 3 bidirectional LSTM (Long Short-Term Memory) layers, a final fullyconnected layer, and non-linearities in between. 
+The acoustic model takes the Mel-spectrogram of the separated vocals as input, and produces the phoneme posteriorgram. 
+It consists of a convolutional layer, a residual convolutional block, a fully-connected layer, 3 bidirectional LSTM (Long Short-Term Memory) layers, a final fullyconnected layer, and non-linearities in between. 
 
 ```
 pip install -r requirements.txt
