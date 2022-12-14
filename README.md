@@ -32,7 +32,7 @@ The alignment process use Viterbi forced alignment. This can be computed efficie
 
 ### Problem with datasets
 
-After fine-tuning this method on ZaloAI 2022 datasets, we realize that the results in the public leaderboard seem not good $\\approx 0.52$. 
+First, we tried to fine-tuning this method on ZaloAI 2022 datasets, the results in the public leaderboard seem not good $\\approx 0.52$. After EDA data of training set, we realized that Ground-truth has been mislabeled quite a bit (easily check this misalignment by [audacity](https://www.audacityteam.org/download/))
 
 ```
 pip install -r requirements.txt
