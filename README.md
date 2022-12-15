@@ -36,13 +36,13 @@ First, we tried to fine-tuning this method on ZaloAI 2022 datasets, the results 
 
 So we used the [pretrained baseline](https://github.com/jhuang448/LyricsAlignment-MTL/blob/main/checkpoints/checkpoint_Baseline) to create **pseudo labels**. 
 
-However, instead of using 100% pseudo-labels. We calculate IoU between pseudo-labels and GT from ZaloAI Datasets. If IoU is less than 0.7, we will use pseudo-label, otherwise we will use GT from Zalo. (approximate 1/3 total samples)
+However, instead of using 100% pseudo-labels, we calculate IoU between pseudo-labels and GT from ZaloAI Datasets. If IoU is less than 0.7, we will use pseudo-label, otherwise we will use GT from Zalo. (approximate 1/3 total samples)
 
 After training with this dataset, the results improved significantly $\\approx 0.57$. 
 
 ### Post-processing
 
-The predicted results of our model are quite close to reality. However, if you pay close attention, GT has a characteristic that **the end time** of the previous word and **the start time** of the following word is the same. So we extend the gaps between the start and end times of two adjacent words into the previous word. This improves our results quite a bit $\\approx 0.60$.
+The predicted results of our model are quite close to reality. However, GT has a characteristic that **the end time** of the previous word and **the start time** of the following word is the same. So we extend the gaps between the start and end times of two adjacent words into the previous word. This improves our results quite a bit $\\approx 0.60$.
 
 ## Usage
 
